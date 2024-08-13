@@ -27,7 +27,7 @@ function App() {
         <Circle
           color="linear-gradient(135deg, #a5b4fc, #6366f1)"
           size={['150px', '150px', '180px', '300px']}
-          zIndex={-1} // Set zIndex to a lower value to push it behind other content
+          zIndex={-1} 
           position="absolute"
           top="-25px"
           left="-20px"
@@ -35,20 +35,20 @@ function App() {
         <Diamond
           color="linear-gradient(135deg, #93c5fd, #3b82f6)"
           size="50px"
-          zIndex={-1} // Set zIndex to a lower value to push it behind other content
+          zIndex={-1} 
           right="55px"
         />
         <CircleGrid
           color="#10b981"
           size="110px"
-          zIndex={-1} // Set zIndex to a lower value to push it behind other content
+          zIndex={-1} 
           left="100px"
           bottom="160px"
         />
         <Circle
           color="linear-gradient(135deg, #a5b4fc, #6366f1)"
           size={['200px', '200px', '22px', '500px']}
-          zIndex={-1} // Set zIndex to a lower value to push it behind other content
+          zIndex={-1} 
           right="-150px"
           bottom="0"
         />
@@ -69,7 +69,7 @@ function App() {
           color="#f43f5e"
           size="150px"
           width={['40px', '40px', '60px', '60px']}
-          zIndex={-1} // Set zIndex to a lower value to push it behind other content
+          zIndex={-1} 
           right="100px"
           top="110px"
         />
